@@ -1,7 +1,7 @@
 {
     "functions": {
       "api/getPDF.go": {
-        "runtime": "go"
+        "runtime": "go1.x"
       }
     }
   }
