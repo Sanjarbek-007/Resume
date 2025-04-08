@@ -1,8 +1,9 @@
 {
-    "functions": {
-      "api/getPDF.go": {
-        "runtime": "go1.x"
+    "builds": [
+      {
+        "src": "api/getPDF.go",
+        "use": "@vercel/docker"
       }
-    }
+    ]
   }
   
